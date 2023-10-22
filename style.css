@@ -1,0 +1,1245 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #F7FAFC;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1080px;
+    margin-inline: auto;
+}
+
+.wrapper--colum {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%;
+}
+
+.Header {
+    display: flex;
+    margin-top: 22px;
+}
+
+.Wrapper-Haeder {
+    display: flex;
+}
+
+
+/* profile */
+
+.profile>.img-profile {
+    margin-left: 23px;
+    width: 68px;
+    height: 42px;
+}
+
+.profile {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.Header input[type="search"] {
+    width: 421px;
+    height: 41.5px;
+    border: none;
+    flex-shrink: 0;
+    margin-top: 1.5px;
+    margin-left: 2px;
+}
+
+.Header input[type="All category"] {
+    width: 120px;
+    height: 41px;
+    margin-top: 2px;
+    flex-shrink: 0;
+    justify-items: center;
+    border: none;
+    margin-left: 1px;
+}
+
+.Header-Wrapper__seclec>select {
+    margin-left: 2px;
+    border: none;
+}
+
+.btn--search button {
+    font-size: 17px;
+    color: white;
+}
+
+.btn--search>button {
+    width: 100px;
+    height: 40px;
+    /* flex-shrink: 0; */
+    background-color: #127FFF;
+    border: none;
+    border-radius: 5px;
+}
+
+.head--searcg {
+    display: flex;
+    background-color: #127FFF;
+    height: 45px;
+    width: 665px;
+    border-radius: 5px;
+}
+
+
+/* canh thẻ mũi tên nằm ở giữa */
+
+.btn--search--seclect {
+    position: relative;
+}
+
+.select-input img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* canh chỉnh profile */
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile>div {
+    text-align: center;
+}
+
+.profile p {
+    margin: 0;
+}
+
+hr {
+    margin-top: 24px;
+}
+
+
+/* Menu */
+
+.menu-list {
+    margin: 17px 17px;
+    display: flex;
+    /* Sử dụng flexbox để dàn hàng ngang */
+    align-items: center;
+    /* Căn các phần tử theo chiều dọc giữa các hàng */
+}
+
+.menu-list .img--seclection {
+    margin-right: 0px;
+    /* Tạo khoảng cách giữa hình ảnh và danh sách */
+}
+
+.list ul {
+    display: flex;
+    /* Sử dụng flexbox để dàn hàng ngang */
+    list-style: none;
+    font-weight: 500;
+    /* Loại bỏ dấu chấm đầu dòng của danh sách */
+    padding: 0;
+    /* Loại bỏ padding mặc định của danh sách */
+}
+
+.list li {
+    margin: 0 19px;
+    /* Tạo khoảng cách giữa các mục trong danh sách */
+}
+
+.list img {
+    max-width: 100%;
+    /* Đảm bảo rằng hình ảnh không vượt quá chiều rộng của ô chứa nó */
+}
+
+.list {
+    position: relative;
+}
+
+.select-help img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu-language,
+.menu-money {
+    display: flex;
+    font-weight: 500;
+}
+
+.menu-money {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.menu-language {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.money-language {
+    margin-right: 5px;
+    /* Điều chỉnh khoảng cách bên phải của money-language */
+}
+
+.img-flag {
+    margin-left: 5px;
+    /* Điều chỉnh khoảng cách bên trái của img-flag */
+}
+
+.money-item {
+    margin-left: 5px;
+}
+
+
+/* BGcard */
+
+.BG-banne {
+    width: 200px;
+    height: auto;
+}
+
+.Wrapper-BG__card {
+    margin-top: 17px;
+    display: flex;
+}
+
+.BG-content {
+    flex: 1;
+    /* Chiếm 2 phần màn hình */
+}
+
+.BG-banner {
+    flex: 4;
+    /* Chiếm 3 phần màn hình */
+}
+
+.BG-login-sale-send {
+    flex: 1;
+    /* Chiếm 2 phần màn hình */
+    display: flex;
+    flex-direction: column;
+}
+
+.BG-content button {
+    margin-bottom: 5.5px;
+    width: 200px;
+    height: 35px;
+    border: none;
+    background: #F7FAFC;
+}
+
+.BG-content .BG-content__firs {
+    background: #E5F1FF;
+    border-radius: 5px;
+}
+
+.BG-banner {
+    position: relative;
+}
+
+.BG-content__banner {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    transform: translateX(10%);
+}
+
+.BG-content__banner {
+    margin-right: 400px;
+}
+
+.BG-content__banner p:first-child {
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.BG-content__banner p:nth-child(2) {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.BG-content__banner button {
+    border: none;
+    width: 119px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.BG-login-sale-send {
+    margin-left: 10px;
+    display: flex;
+}
+
+.BG-login__content {
+    display: flex;
+}
+
+.BG-login {
+    background: #E3F0FF;
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+}
+
+.BG-login__content {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.BG-login__content p {
+    margin-left: 10px;
+}
+
+.BG-login button {
+    margin-top: 10px;
+    width: 180px;
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    background: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.BG-login button:nth-child(2) {
+    background: #127FFF;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.BG-sale {
+    background: #F38332;
+    width: 200px;
+    height: 95px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+}
+
+.BG-sale p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 16px 40px 22px 16px;
+    line-height: 1.5;
+}
+
+.BG-send {
+    background: #55BDC3;
+    width: 200px;
+    height: 95px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+}
+
+.BG-send p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 16px 40px 22px 16px;
+    line-height: 1.5;
+}
+
+
+/* TimeSale */
+
+.TimeSale--DealsTime {
+    background-color: #ffffff;
+    padding: 10px;
+    /* border: 1px solid #060606; */
+    border-top-left-radius: 10px;
+    /* Góc trên bên trái cong */
+    border-top-right-radius: 0px;
+    /* Góc trên bên phải cong */
+    border-bottom-left-radius: 10px;
+    /* Góc dưới bên trái vuông */
+    border-bottom-right-radius: 0;
+    /* Góc dưới bên phải vuông */
+    border-color: #000;
+    /* Đặt màu đường viền thành màu đen */
+    border-width: 1px;
+    /* Đặt độ dày của đường viền */
+    border-style: solid;
+    /* Đặt kiểu đường viền thành solid (liền) */
+    height: 235px;
+    width: 203px;
+    margin-top: 30px;
+}
+
+.DealsTime--text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.Time--line {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.Time--line__Day,
+.Time--line__Hour,
+.Time--line__Min,
+.Time--line__Sec {
+    text-align: center;
+}
+
+.Time--line__Day p,
+.Time--line__Hour p,
+.Time--line__Min p,
+.Time--line__Sec p {
+    color: #fdfeff;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.Time--line__Day p:nth-child(2),
+.Time--line__Hour p:nth-child(2),
+.Time--line__Min p:nth-child(2),
+.Time--line__Sec p:nth-child(2) {
+    font-size: 12px;
+    color: #f8f5f5;
+}
+
+.DealsTime--text p:first-child {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.DealsTime--text p:last-child {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Time--line__Day,
+.Time--line__Hour,
+.Time--line__Min,
+.Time--line__Sec {
+    background: #606060;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.TimeSlae-wrapper {
+    display: flex;
+}
+
+
+/* produc */
+
+.Deals-product {
+    width: 179px;
+    height: 235px;
+    border: 1px solid #111;
+    margin-top: 30px;
+}
+
+.Deals-product {
+    display: flex;
+}
+
+.Deals-product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.Deals-product__image img {
+    display: block;
+    margin: 0 auto;
+}
+
+.Deals-product__product p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    margin: 0;
+}
+
+.Deals-product__sale button {
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background: #FFE3E3;
+    margin-top: 20px;
+}
+
+.Deals-product__sale button p {
+    color: #EB001B;
+    padding: 3px 13px 4px 13px;
+}
+
+
+/* ProductHome */
+
+.ProductHome--DealsTime {
+    background-color: #ffffff;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    height: 235px;
+    width: 203px;
+    margin-top: 0px;
+    position: relative;
+    /* Đặt vị trí tương đối */
+}
+
+.ProductHome--image {
+    position: absolute;
+    /* Đặt vị trí tuyệt đối */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ProductHome--image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.TimeSale {
+    margin-top: 20px;
+}
+
+
+/* chữ nằm trên hình */
+
+.productHomeNew {
+    position: relative;
+    /* Đặt thành relative để có một lớp đáy cho phần con */
+}
+
+.ProductHome--text p {
+    position: absolute;
+    /* Đặt thành absolute để có thể đặt vị trí tùy ý */
+    z-index: 1;
+    /* Để đảm bảo nó nằm trên hình */
+    top: 10px;
+    /* Đặt top thành 0 để nằm phía trên */
+    left: 20px;
+    /* Đặt left thành 0 để nằm ở góc trái */
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.ProductHome--btn button {
+    margin-top: 50px;
+    height: 40px;
+    width: 90px;
+    position: absolute;
+    /* Đặt thành absolute để có thể đặt vị trí tùy ý */
+    z-index: 1;
+    /* Để đảm bảo nó nằm trên hình */
+    top: 50px;
+    /* Đặt top thành 0 để nằm phía trên */
+    left: 20px;
+    /* Đặt left thành 0 để nằm ở góc trái */
+    border: none;
+    background: white;
+    border-radius: 5px;
+}
+
+
+/* pruduct--home */
+
+.pruduct--home {
+    border: 1px solid #111;
+    width: 220px;
+    height: 118px;
+}
+
+
+/* product */
+
+.product--home__text {
+    position: relative;
+    text-align: left;
+    /* Để các đoạn văn bản nằm bên trái */
+}
+
+.product-home__text {
+    position: absolute;
+}
+
+.product--home__image {
+    position: absolute;
+    text-align: right;
+    /* Để hình ảnh nằm giữa */
+}
+
+.product--home__image img {
+    top: 50%;
+    margin-top: 31px;
+    left: 80px;
+    transform: translateX(160%);
+    /* Để hình ảnh nằm giữa */
+    width: 82px;
+    height: 82px;
+}
+
+.product-home__text p:first-child {
+    margin-top: 10px;
+    margin-left: 22px;
+    margin-right: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.product-home__text p:last-child {
+    margin-top: 10px;
+    margin-left: 22px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ProductHome-wrapper {
+    display: flex;
+}
+
+.ProductHome {
+    margin-top: 20px;
+}
+
+.Sumproduct1,
+.Sumproduct2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Điều chỉnh theo nhu cầu */
+    gap: 0;
+    /* Loại bỏ khoảng cách giữa các thẻ con */
+    background: white;
+}
+
+.product {
+    width: 50%;
+}
+
+
+/* sendBanner */
+
+.wrapper-SendBanner {
+    margin-top: 30px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Senbanner--image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.Senbanner--image img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    /* Màu đen với độ dày 1px */
+    object-fit: cover;
+    /* Đảm bảo hình ảnh sẽ fit hoàn toàn vào thẻ img */
+}
+
+
+/* .SendBanner-text {
+    position: absolute;
+    z-index: 1;
+} */
+
+.Senbanner-box {
+    position: absolute;
+    z-index: 1;
+    width: 450px;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-40%);
+}
+
+.Senbanner-box>* {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.Senbanner-box__text1 p,
+.Senbanner-box__text2 p,
+.Senbanner-box__text3 p {
+    font-size: 18px;
+}
+
+.Senbanner-box__text1 p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+}
+
+.Senbanner-box__text2 p {
+    margin-top: 5px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5px;
+}
+
+.Senbanner-box__text2 {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #606060;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+}
+
+.Qualiti-Senbanner {
+    display: flex;
+    align-items: center;
+}
+
+.Senbanner-box__text3 {
+    width: 206px;
+    height: 40px;
+    border: 1px solid #d3d6d8;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.Senbanner-box__text3 p {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.Senbanner-box__seclect {
+    width: 111px;
+    height: 40px;
+    border: 1px solid #d3d6d8;
+}
+
+.Senbanner-box__seclect {
+    display: flex;
+    align-items: center;
+}
+
+.Senbanner-box__seclect p {
+    margin-left: 10px;
+}
+
+.Senbanner-box__seclect img {
+    margin-left: 40px;
+}
+
+.Senbanner-box .send-click p {
+    padding: 0;
+    box-sizing: content-box;
+    margin-top: 10px;
+    margin-left: 15px;
+    color: #ffffff;
+}
+
+.Senbanner-box .send-click {
+    border: 1px solid #d3d6d8;
+    width: 128px;
+    height: 40px;
+    border-radius: 5px;
+    background: #127FFF;
+}
+
+.SendBanner-text {
+    position: absolute;
+    z-index: 1;
+    left: 30px;
+    top: 50px;
+}
+
+.SendBanner-text p:first-child {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.SendBanner-text p:last-child {
+    margin-top: 15px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+
+/* text fashion */
+
+.product-fashion__haeding {
+    margin-top: 30px;
+}
+
+.product-fashion__haeding p {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+}
+
+
+/* Mặt hàng thời trang */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Phần tử thẻ sản phẩm */
+
+.__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ece8e8;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.372);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 198px;
+    height: 320px;
+    flex-shrink: 0;
+    margin-top: 20px;
+}
+
+
+/* Phần tử mô tả sản phẩm */
+
+.__text--describe {
+    margin-top: 20px;
+    text-align: left;
+    color: #8B96A5;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+/* Phần tử giá sản phẩm */
+
+.__text--price {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.product-fashion-yonger1,
+.product-fashion-yonger2 {
+    display: flex;
+}
+
+.product-fashion__young {
+    display: flex;
+}
+
+.product-fashion-yonger2 {
+    margin-top: 0px;
+}
+
+
+/* services */
+
+.service-head p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.serch-service {
+    border: 1px solid #000;
+    width: 260px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.serch-service__image {
+    position: absolute;
+    object-fit: cover;
+}
+
+
+/* circle */
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle1 {
+    width: 40px;
+    height: 40px;
+    background-color: #D1E7FF;
+    z-index: 1;
+    /* Đặt vị trí trên cùng */
+}
+
+.circle2 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.wrapper-service {
+    position: relative;
+}
+
+.serch-service {
+    position: absolute;
+}
+
+.circle-container {
+    margin-top: 121px;
+    margin-left: 120px;
+}
+
+
+/* icon search */
+
+.search-icon {
+    position: absolute;
+    z-index: 1;
+    margin-left: 178px;
+    margin-top: 110px;
+}
+
+
+/* search-text */
+
+.search-text {
+    position: absolute;
+    z-index: 1;
+    color: #000;
+    margin-left: 10px;
+    top: 200px;
+}
+
+.search-text2 {
+    position: absolute;
+    z-index: 1;
+    color: #000;
+    top: 200px;
+    margin-left: 10px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    gap: 15px;
+}
+
+.search-text3 {
+    position: absolute;
+    z-index: 1;
+    color: #000;
+    top: 200px;
+    margin-left: 10px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    gap: 15px;
+}
+
+.search-text4 {
+    position: absolute;
+    z-index: 1;
+    color: #000;
+    top: 200px;
+    margin-left: 10px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    gap: 15px;
+}
+
+.search-text p {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    gap: 15px;
+}
+
+.container-product__service {
+    display: flex;
+}
+
+.serch-our {
+    flex: 1;
+}
+
+.container-product__service {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.serch-our {
+    display: flex;
+}
+
+.region {
+    margin-top: 250px;
+}
+
+h3 {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    /* 133.333% */
+    letter-spacing: -0.2px;
+}
+
+
+/* region */
+
+.region-country {
+    display: grid;
+    grid-template-columns: 28px 1fr;
+    grid-template-rows: 20px 1fr;
+    gap: 5px;
+    /* Điều chỉnh khoảng cách giữa các cột và hàng */
+    grid-template-areas: "image name" "image website";
+    width: 221px;
+    height: 36px;
+}
+
+.region-country__image {
+    grid-area: image;
+    margin-top: 10px;
+    width: 28px;
+    height: 20px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.region-country__name {
+    grid-area: name;
+}
+
+.region-country__website {
+    grid-area: website;
+}
+
+.region-country>div {
+    padding: 0px;
+}
+
+.region-country__name p,
+.region-country__website p {
+    margin: 0;
+}
+
+.country,
+.country2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.country {
+    margin-top: 30px;
+}
+
+.country2 {
+    margin-top: 30px;
+}
+
+.Subscribe {
+    margin-top: 30px;
+    width: 100wh;
+    height: 150px;
+    background-color: #e3e7ec;
+}
+
+.subscribe-text p:first-child {
+    padding-top: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+}
+
+.subscribe-text p:last-child {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+.input-email__input {
+    position: relative;
+}
+
+.subscribe-email__icon img {
+    position: absolute;
+    right: 11px;
+    bottom: 11px;
+}
+
+.subscribe-email {
+    width: 274px;
+    height: 40px;
+    align-items: center;
+}
+
+.subscribe-email {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 50px 1fr;
+    /* 2 hàng */
+    gap: 10px;
+    /* Điều chỉnh khoảng cách giữa các cột */
+}
+
+.input-email__input {
+    grid-area: 1 / 1 / 2 / 2;
+    /* Bắt đầu từ hàng 1 và cột 1, kết thúc ở hàng 2 và cột 2 */
+}
+
+.button-email {
+    grid-area: 1 / 2 / 2 / 3;
+    /* Bắt đầu từ hàng 1 và cột 2, kết thúc ở hàng 2 và cột 3 */
+}
+
+.input-email__input input {
+    width: 100%;
+    /* mở rộng theo kích thước cột */
+}
+
+.button-email button {
+    width: 100%;
+    /* Đảm bảo nút mở rộng theo kích thước cột */
+}
+
+.email-subscirbe {
+    display: flex;
+    justify-content: center;
+}
+
+.button-email button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background: #127FFF;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+/* footer */
+
+.wrapper-row {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-row h3 {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+}
